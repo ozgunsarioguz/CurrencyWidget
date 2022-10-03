@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient( rgb(203, 209, 122), rgb(125, 130, 55));
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.usd,
+.eur {
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
