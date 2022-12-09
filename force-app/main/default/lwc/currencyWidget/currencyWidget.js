@@ -12,7 +12,7 @@ export default class WeatherPage extends LightningElement {
     listener(){
         let long;
         let lat;
-        console.log('hey');
+        console.log('test');
 
         if (navigator.geolocation){
             navigator.geolocation.getCurrentPosition(position => {
